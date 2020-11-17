@@ -147,7 +147,17 @@ footer ul li a{
 .contact-section {
     padding: 40px 130px;
 }
-.contact-banner{}
+.contact-banner{
+    background: url(images/zipify-contact-banner.jpg);
+    background-position: top;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.contact-info{}
+.right-content {
+    padding: 110px;
+    padding-left: 120px;
+}
 .contact-banner img{}
 .about-image{
     padding: 0px 50px;
