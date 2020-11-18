@@ -143,7 +143,11 @@ footer ul li a{
     font-weight: 500;
     padding: 20px 0px;
 }
-.shop-section{padding: 50px;background: aliceblue;padding-top: 80px;}
+.shop-section{
+    padding: 50px;
+    background: aliceblue;
+    padding-top: 80px;
+}
 .contact-section {
     padding: 40px 130px;
 }
@@ -174,9 +178,8 @@ footer ul li a{
 }
 
 @media (max-width: 991px){
-
     .side-feature h2 {
-    font-size: 40px;
+    font-size: 30px;
     padding: 0px;
 
 }
@@ -185,10 +188,10 @@ footer ul li a{
 }
 .list-center{
     margin: 0 auto 30px;
-    width: 80%;
+    width: ;
 }
 .side-feature ul li{
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .header-graphic {
@@ -218,10 +221,7 @@ footer ul li a{
 .feature-section {
     text-align: center;
 }
-.side-feature img {
-    width: 90%;
-    padding: 15px;
-}
+
 .orange-btn {
     padding: 15px 155px;
     letter-spacing: 3px;
@@ -229,6 +229,7 @@ footer ul li a{
 
 }
 @media (max-width: 767px){
+    
     .shop-section {
     text-align: center;
 }
@@ -249,20 +250,22 @@ footer ul li a{
 
 }
 @media (max-width: 575px){
+    .container {
+        width: 100%;
+    }
     .shop-details h1 {
     font-size: 35px;
 }
 .side-feature {
     padding-top: 25px;
-}
-
-}
-@media (max-width: 575px){
-    width: 100%;
-    margin: 0;
+    padding-left: 0px;
 }
 .orange-btn {
-    padding: 15px 125px;
+    padding: 5px 100px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: normal;
     }
     .general-p {
     font-size: 20px;
@@ -279,7 +282,7 @@ footer ul li a{
     margin-top: 20px;
 }
 .side-feature h2 {
-    font-size: 35px;
+    font-size: 30px;
     }
 
 }
